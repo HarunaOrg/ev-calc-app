@@ -251,7 +251,6 @@ function App() {
             
             <Header />
 
-            {/* Only Strings are in "", all other vars must be inside curlybrackets */}
             <MainContent />
 
             <AppFooter currentYear={new Date().getFullYear()} />
