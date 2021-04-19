@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ev-calc-app/static/css/main.f28cc6fb.chunk.css",
-    "main.js": "/ev-calc-app/static/js/main.3e699016.chunk.js",
-    "main.js.map": "/ev-calc-app/static/js/main.3e699016.chunk.js.map",
-    "runtime-main.js": "/ev-calc-app/static/js/runtime-main.fab70c5e.js",
-    "runtime-main.js.map": "/ev-calc-app/static/js/runtime-main.fab70c5e.js.map",
-    "static/css/2.1e505fbe.chunk.css": "/ev-calc-app/static/css/2.1e505fbe.chunk.css",
-    "static/js/2.7ef9a02b.chunk.js": "/ev-calc-app/static/js/2.7ef9a02b.chunk.js",
-    "static/js/2.7ef9a02b.chunk.js.map": "/ev-calc-app/static/js/2.7ef9a02b.chunk.js.map",
-    "static/js/3.fe9703d0.chunk.js": "/ev-calc-app/static/js/3.fe9703d0.chunk.js",
-    "static/js/3.fe9703d0.chunk.js.map": "/ev-calc-app/static/js/3.fe9703d0.chunk.js.map",
+    "main.css": "/ev-calc-app/static/css/main.662f02a2.chunk.css",
+    "main.js": "/ev-calc-app/static/js/main.0ef3535c.chunk.js",
+    "main.js.map": "/ev-calc-app/static/js/main.0ef3535c.chunk.js.map",
+    "runtime-main.js": "/ev-calc-app/static/js/runtime-main.c92e3a13.js",
+    "runtime-main.js.map": "/ev-calc-app/static/js/runtime-main.c92e3a13.js.map",
+    "static/css/2.f7d5f77a.chunk.css": "/ev-calc-app/static/css/2.f7d5f77a.chunk.css",
+    "static/js/2.9bf68bb3.chunk.js": "/ev-calc-app/static/js/2.9bf68bb3.chunk.js",
+    "static/js/2.9bf68bb3.chunk.js.map": "/ev-calc-app/static/js/2.9bf68bb3.chunk.js.map",
+    "static/js/3.6abd4469.chunk.js": "/ev-calc-app/static/js/3.6abd4469.chunk.js",
+    "static/js/3.6abd4469.chunk.js.map": "/ev-calc-app/static/js/3.6abd4469.chunk.js.map",
     "index.html": "/ev-calc-app/index.html",
-    "static/css/2.1e505fbe.chunk.css.map": "/ev-calc-app/static/css/2.1e505fbe.chunk.css.map",
-    "static/css/main.f28cc6fb.chunk.css.map": "/ev-calc-app/static/css/main.f28cc6fb.chunk.css.map",
-    "static/js/2.7ef9a02b.chunk.js.LICENSE.txt": "/ev-calc-app/static/js/2.7ef9a02b.chunk.js.LICENSE.txt",
+    "static/css/2.f7d5f77a.chunk.css.map": "/ev-calc-app/static/css/2.f7d5f77a.chunk.css.map",
+    "static/css/main.662f02a2.chunk.css.map": "/ev-calc-app/static/css/main.662f02a2.chunk.css.map",
+    "static/js/2.9bf68bb3.chunk.js.LICENSE.txt": "/ev-calc-app/static/js/2.9bf68bb3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/ev-calc-app/static/media/Space_Shift_gradient.96498e43.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fab70c5e.js",
-    "static/css/2.1e505fbe.chunk.css",
-    "static/js/2.7ef9a02b.chunk.js",
-    "static/css/main.f28cc6fb.chunk.css",
-    "static/js/main.3e699016.chunk.js"
+    "static/js/runtime-main.c92e3a13.js",
+    "static/css/2.f7d5f77a.chunk.css",
+    "static/js/2.9bf68bb3.chunk.js",
+    "static/css/main.662f02a2.chunk.css",
+    "static/js/main.0ef3535c.chunk.js"
   ]
 }
