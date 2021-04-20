@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
    #################################
 */
 function Header(props) {
-    return ( 
+    return (
         <header className="App-header">
             <div>Top Bar</div>
         </header>
@@ -38,7 +38,7 @@ function MainContent(props){
 
         </div>
 
-        
+
     )
 }
 
@@ -47,17 +47,17 @@ function MainContent(props){
 
 async function getData(url) {
     try{
-        
+
         // let response = await fetch("https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeId/440?format=json");
         let response = await fetch(url);
-        
+
         if (!response.ok) {
             let message = `An error has occured: ${response.status}`;
             throw new Error(message);
         }
         // console.log("RESPONSE: ", response);
         let json = await response.json();
-        
+
         // console.log("JSON result: ", json);
     }
     catch(error){
@@ -65,7 +65,7 @@ async function getData(url) {
             // alert("Failed to receive a response from the the database.")
         console.log("ERROR: ", error);
     }
-    // How to get EV data? Can't request from NHTSA bc no filter, may have to hardcode it? 
+    // How to get EV data? Can't request from NHTSA bc no filter, may have to hardcode it?
 }
 
 
@@ -74,7 +74,7 @@ async function getData(url) {
 
 /*
 
-Pull State Data from 
+Pull State Data from
     All fuels: http://api.eia.gov/series/?api_key=YOUR_API_KEY_HERE&series_id=ELEC.GEN.ALL-US-1.A
     Coal Annually: http://api.eia.gov/series/?api_key=YOUR_API_KEY_HERE&series_id=ELEC.GEN.COW-US-1.A
     Liquid Petroleum: http://api.eia.gov/series/?api_key=YOUR_API_KEY_HERE&series_id=ELEC.GEN.PEL-US-1.A
@@ -92,10 +92,10 @@ Pull State Data from
 
 
 
-    
+
 */
 
-getData("http://api.eia.gov/series/?api_key=df1c2e896a9338ec18c65bf62aa77132&series_id=ELEC.PRICE.NM-RES.M")
+getData("https://api.eia.gov/series/?api_key=df1c2e896a9338ec18c65bf62aa77132&series_id=ELEC.PRICE.NM-RES.M")
 
 
 /* #################################
@@ -138,61 +138,61 @@ var stateOptionsMaker = function(arr) {
     return optionsList;
 }
 
-var statesList = 
-[   "AK - Alaska", 
-    "AL - Alabama", 
-    "AR - Arkansas", 
-    "AS - American Samoa", 
-    "AZ - Arizona", 
-    "CA - California", 
-    "CO - Colorado", 
-    "CT - Connecticut", 
-    "DC - District of Columbia", 
-    "DE - Delaware", 
-    "FL - Florida", 
-    "GA - Georgia", 
-    "GU - Guam", 
-    "HI - Hawaii", 
-    "IA - Iowa", 
-    "ID - Idaho", 
-    "IL - Illinois", 
-    "IN - Indiana", 
-    "KS - Kansas", 
-    "KY - Kentucky", 
-    "LA - Louisiana", 
-    "MA - Massachusetts", 
-    "MD - Maryland", 
-    "ME - Maine", 
-    "MI - Michigan", 
-    "MN - Minnesota", 
-    "MO - Missouri", 
-    "MS - Mississippi", 
-    "MT - Montana", 
-    "NC - North Carolina", 
-    "ND - North Dakota", 
-    "NE - Nebraska", 
-    "NH - New Hampshire", 
-    "NJ - New Jersey", 
-    "NM - New Mexico", 
-    "NV - Nevada", 
-    "NY - New York", 
-    "OH - Ohio", 
-    "OK - Oklahoma", 
-    "OR - Oregon", 
-    "PA - Pennsylvania", 
-    "PR - Puerto Rico", 
-    "RI - Rhode Island", 
-    "SC - South Carolina", 
-    "SD - South Dakota", 
-    "TN - Tennessee", 
-    "TX - Texas", 
-    "UT - Utah", 
-    "VA - Virginia", 
-    "VI - Virgin Islands", 
-    "VT - Vermont", 
-    "WA - Washington", 
-    "WI - Wisconsin", 
-    "WV - West Virginia", 
+var statesList =
+[   "AK - Alaska",
+    "AL - Alabama",
+    "AR - Arkansas",
+    "AS - American Samoa",
+    "AZ - Arizona",
+    "CA - California",
+    "CO - Colorado",
+    "CT - Connecticut",
+    "DC - District of Columbia",
+    "DE - Delaware",
+    "FL - Florida",
+    "GA - Georgia",
+    "GU - Guam",
+    "HI - Hawaii",
+    "IA - Iowa",
+    "ID - Idaho",
+    "IL - Illinois",
+    "IN - Indiana",
+    "KS - Kansas",
+    "KY - Kentucky",
+    "LA - Louisiana",
+    "MA - Massachusetts",
+    "MD - Maryland",
+    "ME - Maine",
+    "MI - Michigan",
+    "MN - Minnesota",
+    "MO - Missouri",
+    "MS - Mississippi",
+    "MT - Montana",
+    "NC - North Carolina",
+    "ND - North Dakota",
+    "NE - Nebraska",
+    "NH - New Hampshire",
+    "NJ - New Jersey",
+    "NM - New Mexico",
+    "NV - Nevada",
+    "NY - New York",
+    "OH - Ohio",
+    "OK - Oklahoma",
+    "OR - Oregon",
+    "PA - Pennsylvania",
+    "PR - Puerto Rico",
+    "RI - Rhode Island",
+    "SC - South Carolina",
+    "SD - South Dakota",
+    "TN - Tennessee",
+    "TX - Texas",
+    "UT - Utah",
+    "VA - Virginia",
+    "VI - Virgin Islands",
+    "VT - Vermont",
+    "WA - Washington",
+    "WI - Wisconsin",
+    "WV - West Virginia",
     "WY - Wyoming"]
 
 
@@ -205,7 +205,7 @@ function Calculator(props) {
 
                 {/* This works */}
                 {/* <ul>    {props.vehicleChoices.map((vehicle) => <li>{vehicle}</li>)}     </ul> */}
-                
+
                 {/* <Select options={props.vehicleChoices.map( (vehicle) => console.log(vehicle) )}/> */}
                 <h4>  Select your vehicle</h4>
                 <Select options={optionsMaker(vehicleChoices)}/>
@@ -239,7 +239,7 @@ function Calculator(props) {
 function AppFooter(props){
     return(
         <div className="App-Footer" >
-            <footer> Copyright {props.currentYear} </footer> 
+            <footer> Copyright {props.currentYear} </footer>
         </div>
     )
 }
@@ -248,13 +248,13 @@ function AppFooter(props){
 function App() {
     return (
         <div className="App">
-            
+
             <Header />
 
             <MainContent />
 
             <AppFooter currentYear={new Date().getFullYear()} />
-        
+
         </div>
     );
 }
