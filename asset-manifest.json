@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ev-calc-app/static/css/main.ab23a394.chunk.css",
+    "main.css": "/ev-calc-app/static/css/main.bf833faf.chunk.css",
     "main.js": "/ev-calc-app/static/js/main.98c9bf9a.chunk.js",
     "main.js.map": "/ev-calc-app/static/js/main.98c9bf9a.chunk.js.map",
     "runtime-main.js": "/ev-calc-app/static/js/runtime-main.4dc932bc.js",
@@ -12,7 +12,7 @@
     "static/js/3.1c9a5adf.chunk.js.map": "/ev-calc-app/static/js/3.1c9a5adf.chunk.js.map",
     "index.html": "/ev-calc-app/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/ev-calc-app/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.ab23a394.chunk.css.map": "/ev-calc-app/static/css/main.ab23a394.chunk.css.map",
+    "static/css/main.bf833faf.chunk.css.map": "/ev-calc-app/static/css/main.bf833faf.chunk.css.map",
     "static/js/2.078ac5d7.chunk.js.LICENSE.txt": "/ev-calc-app/static/js/2.078ac5d7.chunk.js.LICENSE.txt",
     "static/media/index.css": "/ev-calc-app/static/media/Space_Shift_gradient.96498e43.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.4dc932bc.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.078ac5d7.chunk.js",
-    "static/css/main.ab23a394.chunk.css",
+    "static/css/main.bf833faf.chunk.css",
     "static/js/main.98c9bf9a.chunk.js"
   ]
 }
